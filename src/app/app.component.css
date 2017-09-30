@@ -1,0 +1,66 @@
+.navbar {
+  margin-bottom: 0;
+  background-color: #232323;
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+  color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #232323 !important;
+  background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
+}
+
+
+.nav-pills{
+  font-family: graduate;
+  color: #232323;
+  margin-bottom: 10px;
+  margin-right : 10px;
+  margin-top: 10px;
+  width: 33%;
+}
+.tab-content{
+  background-color:#EEE;
+  color:#000;
+
+}
+.nav-tabs > li > a{
+  border: medium ;
+
+
+}
+.nav-tabs > li > a:hover{
+  background-color: #232323 !important;
+  border: medium none;
+  border-radius: 0;
+  color:#fff;
+}
+
+.nav-tabs > li > a:active{
+  background-color: #232323 !important;
+  border: medium none;
+  border-radius: 0;
+  color:#fff;
+}
+
+.nav-pills > li.active >a{
+  background-color: #464646;
+}
+
+.nav-pills>li.active>a:focus{
+  background-color: #464646;
+
+}
